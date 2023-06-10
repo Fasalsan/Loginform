@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* .bk{ */
+  /* background-color:#2c3e50;
+ width:450px;
+ height: 500px;
+  box-shadow:  0 5px 30px 0 rgba(0,0,0,0.2); ;
+}
+.log{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+body{
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: #2c3e50;
+}
+.input-container{
+  width: 280px;
+  position: relative;
+  margin:8px;
+}
+.label{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transition: all 0.5s;
+  z-index: 1;
+  color: rgb(136, 136, 136);
+}
+.text-input{
+  padding: 0.8rem;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #2ecc71;
+  background-color: #2c3e50;
+  border-radius: 9px;
+  font-size:  18px;
+  outline: none;
+  transition: all .3s ;
+  color:rgb(0, 0, 0);
+}
+.label::before{
+  content: "";
+  height: 5px;
+  left: 0;
+  top: 10px;
+  width: 100%;
+  z-index: -1;
+}
+.text-input:focus{
+  border: 2px solid  #2ecc71;
+  background-color:#384f67 ;
+}
+.text-input:focus + label , .filled{
+  top: -10px;
+  color:  #2ecc71;
+  font-size: 14px;
+  
+}
+.text-input::placeholder{
+  font-size: 16px;
+  opacity: 0;
+  transition:  all .3s;
+}
+.text-input:focus::placeholder{
+  opacity: 1;
+  animation-delay: 0.2s;
+} */
+
+input[type=text]{
+  width: 30%;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin: 10px;
+  outline: none;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus{
+
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type=password]{
+  width: 30%;
+  border: 1px solid #ff3131;
+  border-radius: 4px;
+  margin: 10px;
+  outline: none;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+input[type=password]:focus{
+
+  border-color: none;
+  box-shadow: 0 0 8px 0 rgb(255, 30, 30);
+}
+.label{
+  padding-left: 20px;
+}
