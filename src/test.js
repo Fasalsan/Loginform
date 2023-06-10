@@ -6,10 +6,11 @@ function Test(){
       <input type="text" placeholder='UserName'></input>
   <label className='label'>Last_Name</label>
       <input type="password" placeholder='Password'></input><br></br>
-      <label className='label'>Firs_Name</label>
+  <label className='label'>Firs_Name</label>
       <input type="text" placeholder='UserName'></input>
   <label className='label'>Last_Name</label>
       <input type="password" placeholder='Password'></input>
+        <button>save</button>
 </div>   
         
 
